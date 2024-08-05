@@ -1,0 +1,393 @@
+@media screen and (min-width: 1px) {
+    nav {
+        border-bottom: 1px solid lightgray;
+        
+        margin-bottom: 2%;
+        .menu {
+            display: flex;
+            align-items: center;
+            .logo {
+                width: 100px;
+                height: 100px;
+                margin-left: 5%;
+            }
+
+            a {
+                color: black;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            .navbar-nav {
+                margin-left: 0% !important;
+                a {
+                    color: black;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: blue;
+                    }
+
+                    i {
+                        font-weight: bold;
+                        font-size: 1.2rem;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        h1 {
+            margin: 2%;
+            font-size: 2rem;
+        }
+
+        h2 {
+            margin: 1%;
+            font-size: 1.5rem;
+        }
+
+        .text {
+            margin-top: 1%;
+            margin-left: 2%;
+            width: 90%;
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 2%;
+            li {
+                width: 90%;
+                text-align: justify;
+            }
+        }
+
+        form {
+            margin-left: 28%;
+
+            input {
+                width: 68% !important;
+                margin: 1% 5px;
+            }
+        }
+        #calculo {
+            margin: 1% 0;
+            width: 50%;
+            margin-left: 28%;
+        }
+
+        #resultado {
+            margin-top: 1%;
+            margin-left: 2%;
+            font-weight: bold;
+        }
+
+        #resultado2 {
+            text-align: center;
+            margin-top: 1%;
+            margin-left: 2%;
+            font-weight: bold;
+        }
+
+        .tabs {
+            width: 30%;
+            .nav-link {
+                color: black;
+                font-weight: bold;
+            }
+        }
+
+        #calcular {
+            margin: 1% 0;
+            width: 50%;
+            margin-left: 28%;
+        }
+
+        #calc {
+            text-align: center;
+            margin-left: 2%;
+            margin-top: 1%;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    nav {
+        border-bottom: 1px solid lightgray;
+        
+        margin-bottom: 2%;
+        .menu {
+            display: flex;
+            align-items: center;
+            .logo {
+                width: 100px;
+                height: 100px;
+                margin-left: 5%;
+            }
+
+            a {
+                color: black;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            .navbar-nav {
+                margin-left: 50% !important;
+                a {
+                    color: black;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: blue;
+                    }
+
+                    i {
+                        font-weight: bold;
+                        font-size: 1.2rem;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    nav {
+        border-bottom: 1px solid lightgray;
+        
+        margin-bottom: 2%;
+        .menu {
+            display: flex;
+            align-items: center;
+            .logo {
+                width: 100px;
+                height: 100px;
+                margin-left: 5%;
+            }
+
+            a {
+                color: black;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            .navbar-nav {
+                margin-left: 55% !important;
+                a {
+                    color: black;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: blue;
+                    }
+
+                    i {
+                        font-weight: bold;
+                        font-size: 1.2rem;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        h1 {
+            margin: 2%;
+            font-size: 2rem;
+        }
+
+        h2 {
+            margin: 1%;
+            font-size: 1.5rem;
+        }
+
+        .text {
+            margin-top: 1%;
+            margin-left: 2%;
+            width: 85%;
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 2%;
+            li {
+                width: 45%;
+                text-align: justify;
+            }
+        }
+
+        form {
+            margin-left: 2%;
+
+            input {
+                width: 25% !important;
+                margin: 1% 0;
+            }
+        }
+        #calculo {
+            width: auto;
+            margin-left: 2%;
+        }
+
+        #resultado {
+            margin-top: 1%;
+            margin-left: 2%;
+            font-weight: bold;
+        }
+
+        #resultado2 {
+            margin-top: 1%;
+            margin-left: 2%;
+            font-weight: bold;
+        }
+
+        .tabs {
+            width: 25%;
+            .nav-link {
+                color: black;
+                font-weight: bold;
+            }
+        }
+
+        #calcular {
+            margin-top: 1%;
+            margin-left: 2%;
+            width: auto;
+        }
+
+        #calc {
+            text-align-last: left;
+            margin-left: 2%;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    nav {
+        
+        margin-bottom: 2%;
+
+        .landing {
+            margin-left: -15% !important;
+
+            i {
+                font-weight: bold;
+                font-size: 1.3rem;
+            }
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            .logo {
+                width: 100px;
+                height: 100px;
+                margin-left: 5%;
+            }
+
+            a {
+                color: black;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            .navbar-nav {
+                margin-left: 65% !important;
+                a {
+                    color: black;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: blue;
+                    }
+
+                    i {
+                        font-weight: bold;
+                        font-size: 1.2rem;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        h1 {
+            margin: 2%;
+            font-size: 2rem;
+        }
+
+        h2 {
+            margin: 1%;
+            font-size: 1.5rem;
+        }
+
+        .text {
+            margin-top: 1%;
+            margin-left: 2%;
+            width: 95%;
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 2%;
+            li {
+                width: 45%;
+                text-align: justify;
+            }
+        }
+
+        form {
+            margin-left: 2%;
+
+            input {
+                width: 25% !important;
+                margin: 1% 0;
+            }
+        }
+        #calculo {
+            width: auto;
+            margin-left: 2%;
+        }
+
+        #resultado {
+            margin-top: 1%;
+            margin-left: 2%;
+            font-weight: bold;
+        }
+
+        #resultado2 {
+            margin-top: 1%;
+            margin-left: 2%;
+            font-weight: bold;
+        }
+
+        .tabs {
+            width: 25%;
+            .nav-link {
+                color: black;
+                font-weight: bold;
+            }
+        }
+
+        #calcular {
+            margin-top: 1%;
+            margin-left: 2%;
+            width: auto;
+        }
+
+        #calc {
+            margin-left: 2%;
+            margin-top: 1%;
+            font-weight: bold;
+        }
+    }
+}
