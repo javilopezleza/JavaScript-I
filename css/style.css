@@ -1,55 +1,68 @@
+/* Rule for screens with a minimum width of 1px (for all devices) */
+
 @media screen and (min-width: 1px) {
+  /* Bottom margin for the navigation bar */
   nav {
     margin-bottom: 2%;
   }
 
+  /* Menu layout: displayed as a flex container to align items */
   nav .menu {
     display: flex;
     align-items: center;
   }
 
+  /* Logo in the menu: fixed size and left margin */
   nav .menu .logo {
     width: 100px;
     height: 100px;
     margin-left: 5%;
   }
 
+  /* Links in the menu: text styling (bold, uppercase, black color) */
   nav .menu a {
     color: black;
     font-weight: bold;
     text-transform: uppercase;
   }
 
+  /* Alignment and styling of navbar links (aligns to the start) */
   nav .menu .navbar-nav {
     margin-left: 0% !important;
   }
 
+  /* Styling for links within the navbar */
   nav .menu .navbar-nav a {
     color: black;
     font-weight: bold;
     text-transform: uppercase;
   }
 
+  /* Styling for navbar links when hovered */
   nav .menu .navbar-nav a:hover {
     color: blue;
   }
 
+  /* Styling for icons in the links */
   nav .menu .navbar-nav a i {
     font-weight: bold;
     font-size: 1.2rem;
     margin-right: 5px;
   }
 
+  /* Main heading styling */
   main h1 {
     margin: 2%;
     font-size: 2rem;
   }
 
+  /* Subheading styling */
   main h2 {
     margin: 1%;
     font-size: 1.5rem;
   }
 
+  /* Paragraph text styling */
   main .text {
     margin-top: 1%;
     margin-left: 2%;
@@ -57,6 +70,7 @@
     text-align: justify;
   }
 
+  /* List styling inside the main content */
   main ul {
     margin-left: 2%;
   }
@@ -66,27 +80,32 @@
     text-align: justify;
   }
 
+  /* Styling for the form */
   main form {
     margin-left: 28%;
   }
 
+  /* Styling for form input elements */
   main form input {
     width: 68% !important;
     margin: 1% 5px;
   }
 
+  /* Styling for the element with the id #calculo */
   main #calculo {
     margin: 1% 0;
     width: 50%;
     margin-left: 28%;
   }
 
+  /* Styling for the element with the id #resultado */
   main #resultado {
     margin-top: 1%;
     margin-left: 2%;
     font-weight: bold;
   }
 
+  /* Styling for the element with the id #resultado2 */
   main #resultado2 {
     text-align: center;
     margin-top: 1%;
@@ -94,32 +113,36 @@
     font-weight: bold;
   }
 
+  /* Styling for the tabs (tabs navigation) */
   main .tabs {
     width: 30%;
   }
 
+  /* Styling for the links inside the tabs */
   main .tabs .nav-link {
     color: black;
     font-weight: bold;
   }
 
+  /* Styling for the calculate button */
   main #calcular {
     margin: 1% 0;
     width: 50%;
     margin-left: 28%;
   }
 
+  /* Styling for the text in the element with id #calc */
   main #calc {
-    text-align: center;
+    text-align: left;
     margin-left: 2%;
     margin-top: 1%;
     font-weight: bold;
   }
 }
 
+/* Rule for screens with a minimum width of 992px (tablets and larger screens) */
 @media screen and (min-width: 992px) {
   nav {
-  
     margin-bottom: 2%;
   }
 
@@ -161,9 +184,9 @@
   }
 }
 
+/* Rule for screens with a minimum width of 1200px (large desktop screens) */
 @media screen and (min-width: 1200px) {
   nav {
-  
     margin-bottom: 2%;
   }
 
@@ -272,8 +295,7 @@
   }
 
   main #calc {
-    -moz-text-align-last: left;
-    text-align-last: left;
+    text-align: left;
     margin-left: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -281,11 +303,13 @@
   }
 }
 
+/* Rule for screens with a minimum width of 1400px (extra-large screens) */
 @media screen and (min-width: 1400px) {
   nav {
     margin-bottom: 2%;
   }
 
+  /* Adjusts margin for the landing section */
   nav .landing {
     margin-left: -15% !important;
   }
@@ -405,5 +429,3 @@
     font-weight: bold;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

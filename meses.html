@@ -6,57 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meses</title>
+    
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/includeHeader.js"></script>
-    <script src="js/meses.js"></script>
 
+    <!-- JavaScript for dynamically including the header -->
+    <script src="js/includeHeader.js"></script>
+
+    <!-- JavaScript for handling the "Meses" functionality -->
+    <script src="js/meses.js"></script>
 </head>
 
-<body >
+<body>
 
+    <!-- Header dynamically included via JavaScript -->
     <header></header>
 
     <main>
+        <!-- Page title -->
         <h1>Funcion Meses</h1>
-        <p class="text">Esta función te dice los días que tiene el mes que escribas en el la caja de texto inferior</p>
+        
+        <!-- Description of the functionality -->
+        <p class="text">Esta función te dice los días que tiene el mes que escribas en la caja de texto inferior</p>
+        
+        <!-- Form to input the month -->
         <form action="#" class="form" id="formMes">
-
             <label class="form-label" for="mes">Introduce un mes:</label>
             <input class="form-control" type="text" name="mes" id="mes">
-
         </form>
-        <button onclick=diasDelMes() id="calculo" class="btn btn-success" type="button">Calcular</button>
+        
+        <!-- Button to trigger the function -->
+        <button onclick="diasDelMes()" id="calculo" class="btn btn-success" type="button">Calcular</button>
 
-        <!-- <div class="for">
-            <p>Resultado mostrado con el condicional for</p>
-            <p id="resultado">
-                
-            </p>
-        </div> -->
-
+        <!-- Result section for the "switch" functionality -->
         <div class="switch">
-            <p id="resultado2">
-
-            </p>
+            <p id="resultado2"></p>
         </div>
-
     </main>
 
     <footer>
+        <!-- Link to CSS Validator -->
         <div>
             <a href="http://jigsaw.w3.org/css-validator/check/referer">
                 <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="¡CSS Válido!" />
             </a>
         </div>
+        
+        <!-- Copyright Information -->
         <div class="copy">
             &#169;JaviLoLez
         </div>
     </footer>
 
-
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
