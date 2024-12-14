@@ -429,3 +429,10 @@
     font-weight: bold;
   }
 }
+
+
+.css-validator-img {
+  border: 0;
+  width: 88px;
+  height: 31px;
+}

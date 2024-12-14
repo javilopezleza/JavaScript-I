@@ -36,8 +36,8 @@
         <p class="text">Esta función te dice los días que tiene el mes que escribas en la caja de texto inferior</p>
         
         <!-- Form to input the month -->
-        <form action="#" class="form" id="formMes">
-            <label class="form-label" for="mes">Introduce un mes:</label>
+        <form action="#" class="form" id="formMes" aria-label="Formulario para introducir el nombre de un mes">
+            <label class="form-label" for="mes" aria-label="Introduce un mes para calcular los días">Introduce un mes:</label>
             <input class="form-control" type="text" name="mes" id="mes">
         </form>
         
@@ -46,7 +46,7 @@
 
         <!-- Result section for the "switch" functionality -->
         <div class="switch">
-            <p id="resultado2"></p>
+            <p id="resultado2" aria-live="polite"></p>
         </div>
     </main>
 

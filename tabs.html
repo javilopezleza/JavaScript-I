@@ -42,20 +42,20 @@
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item tabs">
                 <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
-                    role="tab" aria-controls="home" aria-selected="true">¿Qué es CSS3?</button>
+                role="tab" aria-controls="home" aria-selected="true" aria-label="Descripción de ¿Qué es CSS3?">¿Qué es CSS3?</button>
             </li>
             <li class="nav-item tabs">
                 <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-                    role="tab" aria-controls="profile" aria-selected="false">¿Para qué sirve?</button>
+                    role="tab" aria-controls="profile" aria-selected="false" aria-label="Descripción de ¿Para qué sirve CSS3?">¿Para qué sirve?</button>
             </li>
             <li class="nav-item tabs">
                 <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
-                    role="tab" aria-controls="contact" aria-selected="false">Ventajas y desventajas</button>
+                    role="tab" aria-controls="contact" aria-selected="false" aria-label="Descripción de Ventajas y desventajas de CSS3">Ventajas y desventajas</button>
             </li>
         </ul>
 
         <!-- Tab content area -->
-        <div class="tab-content" id="myTabContent">
+        <div class="tab-content" id="myTabContent" aria-live="polite">
             <!-- Tab 1: "¿Qué es CSS3?" -->
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <p class="text">
@@ -90,7 +90,7 @@
                     <strong>Ventajas</strong>
                 </p>
 
-                <ul>
+                <ul aria-label="Ventajas de CSS3">
                     <li>Utiliza un código muy especializado para crear un proyecto en sí.</li>
                     <li>Tiene múltiples elementos, para fomentar el buen desarrollo</li>
                     <li>Logra estilos y efectos visuales nuevos y mejores, que antes sólo eran posibles por medio de
@@ -100,7 +100,7 @@
                 <p class="text">
                     <strong>Desventajas</strong>
                 </p>
-                <ul>
+                <ul aria-label="Desventajas de CSS3">
                     <li>El uso de las tablas nos permitía crear diseños complejos de forma mucho más sencilla que
                         utilizando CSS, aunque CSS3 está intentando facilitar dicho trabajo</li>
                     <li>Existen limitaciones que CSS 2.x todavía no permite, por ejemplo, la alineación vertical de
